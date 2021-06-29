@@ -1,0 +1,194 @@
+*
+{
+	font-family: Arial, sans-serif;
+	list-style-type: none;
+}
+
+body html
+{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+html border-style
+{
+	min-width: 400px;
+}
+body
+{
+	background: #fff;
+}
+
+
+/* ===== Header ===== */
+header nav ul
+{
+	display: flex;
+	justify-content: flex-end;
+	list-style-type: none;
+	margin-right: 15px;
+}
+header nav ul li a
+{
+	text-decoration: none;
+	font-size: 0.9em;
+	margin: 5px 5px 5px 5px;
+	color: #222;
+}
+header nav ul li a:hover
+{
+  	text-decoration: underline;
+}
+
+.connexion
+{
+	background-color: rgb(26, 115, 233);
+	border-style: none;
+	border-radius: 5px 5px 5px 5px;
+	width: 100px;
+	height: 30px;
+	font-size: 1em;
+	font-weight: bold;
+	color: white;
+}
+.connexion:hover
+{
+	text-decoration: underline;
+}
+
+/* ===== Recherche Google ===== */
+.logo img
+{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+  	margin-bottom:20px;
+}
+
+.bar
+{
+  	margin: 0 auto;
+  	width: 575px;
+  	border: 1px solid #dcdcdc;
+  	border-radius: 25px;
+}
+.bar:hover
+{
+  	box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+.bar:focus-within
+{
+  	box-shadow: 1px 1px 8px 1px #dcdcdc;
+  	outline:none;
+}
+.searchbar
+{
+  	height:40px;
+  	border:none;
+  	width:500px;
+  	font-size:16px;
+  	outline: none; 
+}
+
+.loupe
+{
+	height: 20px;
+	position: relative;
+	top: 5px;
+	right: 490px;
+}
+
+.micro
+{
+  	height: 30px;
+  	position: relative;
+  	top: 5px;
+  	left: 10px;
+}
+
+.buttons
+{
+  	margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 22em;
+}
+.button
+{
+  	background-color: #f5f5f5;
+  	border: none;
+  	color: black;
+  	padding: 9px 20px;
+  	margin: 3px;
+  	border-radius:4px;
+  	outline: none;
+}
+.button:hover
+{
+  	border: 1px solid #c8c8c8;
+  	padding: 8px 19px;
+}
+.button:focus
+{
+  	border:1px solid #4885ed;
+  	padding: 8px 19px;
+}
+
+/* ===== Footer ===== */
+footer
+{
+	background: whitesmoke;
+	color: grey;
+	font-size: 0.9em;
+	bottom: 0;
+	width: 99%;
+	position: absolute;
+}
+
+footer nav ul
+{
+	list-style-type: none;
+	display: flex;
+}
+
+footer nav ul li a
+{
+	text-decoration: none;
+	color: grey;
+	flex-wrap: wrap;
+	margin-right: 15px;
+}
+footer nav ul li a:hover
+{
+	text-decoration: underline;
+}
+footer p
+{
+	margin-left: 15px;
+}
+
+#findepage
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+#menubasgauche ul
+{
+	flex: 1 1 auto;
+}
+#neutrecarbone a
+{
+	text-decoration: none;
+	color: grey;
+	flex: 3 3 auto;
+	justify-content: center;
+}
+
+#menubasdroite ul
+{
+	flex: 1 1 auto;
+}
+
